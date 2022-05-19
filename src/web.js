@@ -2,7 +2,7 @@ import Web3 from "web3";
 import getInfuraKey from "./actions/smartActions/helper";
 import provider from "./provider";
 import constants from "./utils/constants";   
-
+ 
 var web3; 
 
 let providerKey = getInfuraKey();
