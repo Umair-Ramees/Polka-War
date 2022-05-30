@@ -8,6 +8,6 @@ contract PolkaWarToken is ERC20, ERC20Burnable {
     constructor(uint256 initialSupply)
         ERC20("PolkaWar", "PWAR")
     {
-        _mint(msg.sender, initialSupply);
+        _mint(msg.sender, initialSupply); 
     }
 }
